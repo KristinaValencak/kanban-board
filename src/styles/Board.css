@@ -1,0 +1,55 @@
+.board {
+  display: flex;
+  justify-content: flex-start;   
+  gap: 20px;
+  padding: 30px;
+  background: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 100%;
+}
+.add-card-inline {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px;
+}
+.add-card-inline input {
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.inline-actions {
+  display: flex;
+  gap: 6px;
+}
+.add-card-inline button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #e5e7eb;
+  color: #111827;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.add-card-inline button:hover {
+  background: #d1d5db;
+}
+.add-card-inline .cancel-btn {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+.add-card-inline .cancel-btn:hover {
+  background: #e5e7eb;
+  color: #374151;
+}
+.add-card-inline .primary-btn {
+  background: #3b82f6;
+  color: white;
+}
+.add-card-inline .primary-btn:hover {
+  background: #2563eb;
+}

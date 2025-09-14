@@ -1,0 +1,78 @@
+.header {
+  background: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #eee;
+  
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.header-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 10px;
+}
+.header-left h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #2563eb;
+  margin: 0;
+}
+.header-left p {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 4px 0 0 0;
+}
+.legend {
+  margin-top: auto;
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  align-items: center;
+}
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot.high { background: #ef4444; }
+.dot.medium { background: #f59e0b; }
+.dot.low { background: #10b981; }
+
+.widget {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 10px 14px;
+  color: #374151;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.widget h3 {
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #111827;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 4px;
+}
+.widget .company-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.widget .company-info li {
+  padding: 2px 0;
+  border-bottom: 1px dashed #e5e7eb;
+  font-size: 11px;
+}
+.widget .company-info li strong {
+  display: inline-block;
+  width: 110px;
+  color: #111827;
+}

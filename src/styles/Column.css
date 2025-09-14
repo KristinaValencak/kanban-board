@@ -1,0 +1,70 @@
+.column {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 200px;
+}
+.column:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  background: #fdfdfd;
+}
+.column-title {
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff; 
+  border-radius: 12px 12px 0 0;
+}
+.add {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.add:hover {
+  color: #fef08a;
+}
+.column:nth-child(1) .column-title {
+  background: linear-gradient(90deg, #f87171, #ef4444); /* rdeča */
+}
+.column:nth-child(2) .column-title {
+  background: linear-gradient(90deg, #fbbf24, #f59e0b); /* oranžna */
+}
+.column:nth-child(3) .column-title {
+  background: linear-gradient(90deg, #60a5fa, #2563eb); /* modra */
+}
+.column:nth-child(4) .column-title {
+  background: linear-gradient(90deg, #a78bfa, #7c3aed); /* vijolična */
+}
+.column:nth-child(5) .column-title {
+  background: linear-gradient(90deg, #34d399, #059669); /* zelena */
+}
+.priority-options {
+  display: flex;
+  gap: 5px;
+  margin: 8px 0;
+  font-size: 14px;
+}
+.priority-options label {
+  display: flex;
+  align-items: center;
+  
+  cursor: pointer;
+}
+.card-list {
+  flex-grow: 1;
+  padding: 12px;
+  transition: background-color 0.2s ease;
+  min-height: 50px;
+}
+.card-list.dragging-over {
+  background-color: #eef6ff;
+  border-radius: 8px;
+}
